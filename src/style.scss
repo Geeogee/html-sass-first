@@ -1,0 +1,44 @@
+/* VAR */
+$primary-color: #D1603D;
+$secondary-color: #FFF;
+$p-10: 10px;
+
+/* GENERAL CSS */
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+
+
+body {
+
+    background-color: $secondary-color;
+}
+
+.container {
+
+    background-color: $secondary-color;
+    color: $primary-color;
+    padding: $p-10;
+    width: 50%;
+    margin: 0 auto;
+
+    .test-button {
+
+        background-color: $primary-color;
+        color: $secondary-color;
+        padding: $p-10;
+        border: 0;
+    }
+
+    h1 {
+
+        color: $primary-color
+    }
+}
+

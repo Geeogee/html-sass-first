@@ -1,0 +1,29 @@
+/* VAR */
+/* GENERAL CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN */
+body {
+  background-color: #FFF;
+}
+
+.container {
+  background-color: #FFF;
+  color: #D1603D;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+.container .test-button {
+  background-color: #D1603D;
+  color: #FFF;
+  padding: 10px;
+  border: 0;
+}
+.container h1 {
+  color: #D1603D;
+}
